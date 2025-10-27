@@ -41,7 +41,7 @@ void main(List<String> arguments) {
   printSalaries(employees, netSalaries);
 
   double averageSalary = calculeteAvarageSalery(netSalaries);
-  print('Середній чистий дохід :\$${averageSalary.toStringAsFixed(1)}');
+  print('Середній чистий дохід зарплат :\$${averageSalary.toStringAsFixed(1)}');
 }
 
 void printSalaries(List<String> employees, List<int> salaries) {
