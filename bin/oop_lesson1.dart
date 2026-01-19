@@ -8,10 +8,10 @@ void main(List<String> arguments) {
       name: 'Ото', surname: 'Алат', profession: 'вантажник', age: 28);
 
 
-  print('Перший робітник :');
+  print('Перший робітник :\n');
   printInfo(firstWorker.name, firstWorker.surname, firstWorker.profession,
       firstWorker.age);
-  print('Другий робітник :');
+  print('Другий робітник :\n');
   printInfo(secondWorker.name, secondWorker.surname, secondWorker.profession,
       secondWorker.age);
 }
